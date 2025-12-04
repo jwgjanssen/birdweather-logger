@@ -7,7 +7,7 @@ library(lubridate)
 
 # ---- CONFIG / SECRETS ----
 
-# Use your BirdWeather station token here (stored as BW_DEVICE_ID secret)
+# BirdWeather station token stored in BW_DEVICE_ID
 station_token <- Sys.getenv("BW_DEVICE_ID")
 
 if (station_token == "") {
@@ -16,10 +16,11 @@ if (station_token == "") {
 
 base_dir <- "data"
 
-# ---- TIME RANGE: previous UTC day (for naming) ----
+# ---- TIME RANGE: previous UTC day ----
 
-yesterday  <- Sys.Date() - 1
-start_time <- paste0(yesterday, "T00:00:00Z")  # used as `since` parameter
+yesterday   <- Sys.Date() - 1
+from_time   <- paste0(yesterday, "T00:00:00Z")
+to_time     <- paste0(yesterday, "T23:59:59Z")
 
 day_dir     <- file.path(base_dir, as.character(yesterday))
 daily_file  <- file.path(day_dir, "detections.csv")
@@ -27,46 +28,100 @@ master_file <- file.path(base_dir, "master_detections.csv")
 
 dir.create(day_dir, recursive = TRUE, showWarnings = FALSE)
 
-# ---- API CALL: BirdWeather detections endpoint ----
-#   https://app.birdweather.com/api/v1/stations/{token}/detections
-# with query params like `since` and `limit`.
+# ---- API CALL: BirdWeather detections endpoint with pagination ----
+# GET /api/v1/stations/{token}/detections?limit,from,to,cursor,order,...
 
 base_url <- sprintf(
   "https://app.birdweather.com/api/v1/stations/%s/detections",
   station_token
 )
 
-cat("Requesting detections since", start_time, "for station", station_token, "...\n")
-cat("URL:", base_url, "\n")
+cat("Requesting detections for UTC day", yesterday, "...\n")
+cat("From:", from_time, " To:", to_time, "\n")
 
-res <- GET(
-  base_url,
-  query = list(
-    since = start_time,
-    limit = 10000   # safety cap; adjust if you ever hit this
+all_pages <- list()
+cursor <- NULL
+page_idx <- 1L
+page_limit <- 100L  # API max = 100
+
+repeat {
+  query <- list(
+    limit = page_limit,
+    from  = from_time,
+    to    = to_time,
+    order = "desc"    # default, but explicit
   )
-)
+  if (!is.null(cursor)) {
+    query$cursor <- cursor
+  }
 
-if (http_error(res)) {
-  stop("API request failed with status: ", status_code(res), "\nBody:\n",
-       content(res, as = "text", encoding = "UTF-8"))
+  cat("Requesting page", page_idx, "with cursor =", ifelse(is.null(cursor), "NULL", cursor), "...\n")
+
+  res <- GET(base_url, query = query)
+
+  if (http_error(res)) {
+    stop("API request failed with status: ", status_code(res), "\nBody:\n",
+         content(res, as = "text", encoding = "UTF-8"))
+  }
+
+  json_txt  <- content(res, as = "text", encoding = "UTF-8")
+  json_data <- fromJSON(json_txt, flatten = TRUE)
+
+  det_page <- json_data$detections
+
+  # No more detections
+  if (is.null(det_page) || NROW(det_page) == 0) {
+    cat("No (more) detections returned for this page.\n")
+    break
+  }
+
+  det_page <- as_tibble(det_page)
+  all_pages[[length(all_pages) + 1L]] <- det_page
+
+  cat("  Page", page_idx, "returned", nrow(det_page), "detections\n")
+
+  # If fewer than limit, we've reached the end
+  if (nrow(det_page) < page_limit) {
+    break
+  }
+
+  # Prepare cursor = id of last detection in this page
+  if (!"id" %in% names(det_page)) {
+    cat("No 'id' field found; cannot paginate further safely.\n")
+    break
+  }
+
+  cursor <- det_page$id[nrow(det_page)]
+  page_idx <- page_idx + 1L
 }
 
-json_txt  <- content(res, as = "text", encoding = "UTF-8")
-json_data <- fromJSON(json_txt, flatten = TRUE)
+# Combine pages
+if (length(all_pages) == 0) {
+  cat("No detections found for that UTC day.\n")
+  daily_df <- tibble()
+} else {
+  all_det <- bind_rows(all_pages)
 
-# BirdWeather responses for this endpoint expose detections at top-level:
-#   { "detections": [ ... ] }
-detections_raw <- json_data$detections
+  # Extra safety: filter to exactly 'yesterday' (UTC date) based on timestamp
+  if ("timestamp" %in% names(all_det)) {
+    all_det <- all_det %>%
+      mutate(
+        ts = ymd_hms(timestamp, quiet = TRUE),
+        date_utc = as.Date(ts)
+      ) %>%
+      filter(date_utc == yesterday) %>%
+      select(-ts, -date_utc)
+  }
+
+  daily_df <- all_det
+}
 
 # ---- WRITE DAILY FILE ----
 
-if (is.null(detections_raw) || length(detections_raw) == 0) {
-  cat("No detections returned. Writing empty daily CSV.\n")
-  daily_df <- tibble()
+if (nrow(daily_df) == 0) {
+  cat("No detections for that day after filtering. Writing empty daily CSV.\n")
   write.csv(daily_df, daily_file, row.names = FALSE)
 } else {
-  daily_df <- as_tibble(detections_raw)
   write.csv(daily_df, daily_file, row.names = FALSE)
   cat("Saved", nrow(daily_df), "detections to", daily_file, "\n")
 }
@@ -86,7 +141,7 @@ if (file.exists(master_file) && file.info(master_file)$size > 0) {
   master_df <- tibble()
 }
 
-# 2. Append new data
+# 2. Append new daily data
 combined_df <- master_df
 if (nrow(daily_df) > 0) {
   combined_df <- bind_rows(master_df, daily_df)
