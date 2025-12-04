@@ -18,7 +18,7 @@ base_dir <- "data"
 
 # ---- TIME RANGE: previous UTC day (for naming) ----
 
-yesterday <- Sys.Date() - 1
+yesterday  <- Sys.Date() - 1
 start_time <- paste0(yesterday, "T00:00:00Z")  # used as `since` parameter
 
 day_dir     <- file.path(base_dir, as.character(yesterday))
@@ -28,9 +28,8 @@ master_file <- file.path(base_dir, "master_detections.csv")
 dir.create(day_dir, recursive = TRUE, showWarnings = FALSE)
 
 # ---- API CALL: BirdWeather detections endpoint ----
-# According to community docs the base is:
 #   https://app.birdweather.com/api/v1/stations/{token}/detections
-# and `since` (ISO8601) and `limit` are supported as query params.
+# with query params like `since` and `limit`.
 
 base_url <- sprintf(
   "https://app.birdweather.com/api/v1/stations/%s/detections",
@@ -56,8 +55,8 @@ if (http_error(res)) {
 json_txt  <- content(res, as = "text", encoding = "UTF-8")
 json_data <- fromJSON(json_txt, flatten = TRUE)
 
-# BirdWeather responses use `detections` at the top level for this endpoint,
-# not `data`.
+# BirdWeather responses for this endpoint expose detections at top-level:
+#   { "detections": [ ... ] }
 detections_raw <- json_data$detections
 
 # ---- WRITE DAILY FILE ----
@@ -74,22 +73,22 @@ if (is.null(detections_raw) || length(detections_raw) == 0) {
 
 # ---- UPDATE MASTER CSV ----
 
-# 1. Load existing master if present
-if (file.exists(master_file)) {
+# 1. Load existing master if present AND non-empty
+if (file.exists(master_file) && file.info(master_file)$size > 0) {
   master_df <- read.csv(master_file, stringsAsFactors = FALSE)
   master_df <- as_tibble(master_df)
 } else {
+  if (file.exists(master_file) && file.info(master_file)$size == 0) {
+    cat("Master file exists but is empty; starting fresh.\n")
+  } else {
+    cat("No existing master file; starting new.\n")
+  }
   master_df <- tibble()
 }
 
-# 2. Append new data, but avoid duplicating the same day if the job is rerun.
+# 2. Append new data
 combined_df <- master_df
-
 if (nrow(daily_df) > 0) {
-  # If there is some kind of timestamp column, we could optionally
-  # drop existing rows for 'yesterday' from master_df first.
-  # For now, we rely mainly on a unique detection id to deduplicate later.
-
   combined_df <- bind_rows(master_df, daily_df)
 }
 
