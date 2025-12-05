@@ -1,0 +1,25 @@
+species,n_detections,n_days,occupancy_prop,category
+European Robin,495,1,0.3333333333333333,regular
+Redwing,48,3,1,core
+Black Redstart,42,1,0.3333333333333333,regular
+Eurasian Jackdaw,42,1,0.3333333333333333,regular
+Eurasian Magpie,17,1,0.3333333333333333,regular
+Black-headed Gull,6,1,0.3333333333333333,regular
+Hawfinch,6,1,0.3333333333333333,regular
+Tawny Owl,5,1,0.3333333333333333,regular
+Long-tailed Tit,4,1,0.3333333333333333,regular
+Short-toed Treecreeper,4,1,0.3333333333333333,regular
+Goldcrest,3,1,0.3333333333333333,regular
+Common Firecrest,2,2,0.6666666666666666,core
+Eurasian Blue Tit,2,1,0.3333333333333333,regular
+Eurasian Curlew,2,1,0.3333333333333333,regular
+Eurasian Woodcock,2,1,0.3333333333333333,regular
+Greater White-fronted Goose,2,1,0.3333333333333333,regular
+Long-eared Owl,2,1,0.3333333333333333,regular
+Common Greenshank,1,1,0.3333333333333333,regular
+Common Sandpiper,1,1,0.3333333333333333,regular
+Eurasian Blackbird,1,1,0.3333333333333333,regular
+European Stonechat,1,1,0.3333333333333333,regular
+Hooded Crow,1,1,0.3333333333333333,regular
+Song Thrush,1,1,0.3333333333333333,regular
+White Wagtail,1,1,0.3333333333333333,regular
