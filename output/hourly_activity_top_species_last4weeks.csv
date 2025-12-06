@@ -1,46 +1,71 @@
 species,hour,n_detections
-Black Redstart,8,14
+Black Redstart,8,26
 Black Redstart,9,27
+Black Redstart,10,2
 Black Redstart,13,1
 Black-headed Gull,9,1
-Black-headed Gull,11,3
-Black-headed Gull,12,1
+Black-headed Gull,10,2
+Black-headed Gull,11,5
+Black-headed Gull,12,7
 Black-headed Gull,13,1
-Eurasian Jackdaw,10,1
+Black-headed Gull,14,2
+Eurasian Jackdaw,8,2
+Eurasian Jackdaw,10,5
+Eurasian Jackdaw,11,1
 Eurasian Jackdaw,12,1
+Eurasian Jackdaw,13,1
 Eurasian Jackdaw,15,40
+Eurasian Magpie,4,3
 Eurasian Magpie,7,3
-Eurasian Magpie,15,1
+Eurasian Magpie,10,5
+Eurasian Magpie,11,4
+Eurasian Magpie,15,6
 Eurasian Magpie,16,9
+Eurasian Magpie,18,1
 Eurasian Magpie,20,3
 Eurasian Magpie,23,1
-European Robin,3,2
-European Robin,4,45
-European Robin,5,204
-European Robin,6,130
-European Robin,7,76
+Eurasian Woodcock,0,2
+Eurasian Woodcock,4,2
+Eurasian Woodcock,5,8
+Eurasian Woodcock,6,1
+European Robin,3,22
+European Robin,4,262
+European Robin,5,377
+European Robin,6,187
+European Robin,7,140
 European Robin,8,35
 European Robin,9,3
-Hawfinch,6,5
+European Robin,16,11
+European Robin,17,7
+Greater White-fronted Goose,8,1
+Greater White-fronted Goose,20,6
+Greater White-fronted Goose,21,3
+Greater White-fronted Goose,22,7
+Hawfinch,4,1
+Hawfinch,5,2
+Hawfinch,6,10
 Hawfinch,8,1
-Long-tailed Tit,10,4
+Hawfinch,9,1
+Long-tailed Tit,6,2
+Long-tailed Tit,9,2
+Long-tailed Tit,10,5
 Redwing,0,3
 Redwing,2,6
-Redwing,3,2
-Redwing,5,2
-Redwing,6,2
+Redwing,3,5
+Redwing,5,4
+Redwing,6,3
+Redwing,7,1
 Redwing,8,1
-Redwing,11,6
+Redwing,9,1
+Redwing,10,1
+Redwing,11,7
 Redwing,12,2
 Redwing,13,1
-Redwing,16,1
+Redwing,14,1
+Redwing,16,2
 Redwing,18,2
 Redwing,19,5
 Redwing,20,1
 Redwing,21,3
 Redwing,22,9
 Redwing,23,2
-Short-toed Treecreeper,10,4
-Tawny Owl,0,3
-Tawny Owl,2,1
-Tawny Owl,3,1
