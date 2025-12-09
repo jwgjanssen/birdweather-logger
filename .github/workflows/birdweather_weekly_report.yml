@@ -1,0 +1,62 @@
+name: PUC Weekly PDF Report
+
+on:
+  # runs automatically every Monday 06:00 UTC
+  schedule:
+    - cron: "0 6 * * 1"
+  # and can be triggered manually
+  workflow_dispatch:
+
+jobs:
+  weekly_report:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up R
+        uses: r-lib/actions/setup-r@v2
+
+      - name: Install system libs for curl (if other scripts need it)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libcurl4-openssl-dev
+
+      - name: Install R packages for weekly report
+        run: |
+          Rscript -e 'install.packages(c(
+            "readr","dplyr","lubridate","ggplot2","forcats",
+            "rmarkdown","tinytex"
+          ), repos="https://cloud.r-project.org")'
+          Rscript -e 'tinytex::install_tinytex()'
+
+      - name: Render weekly PDF report
+        run: |
+          Rscript scripts/render_weekly_report.R
+
+      - name: Find report filename
+        id: find_report
+        run: |
+          FILE=$(ls reports/PUC_weekly_report_*.pdf | sort | tail -n 1)
+          echo "report_file=$FILE" >> $GITHUB_OUTPUT
+
+      - name: Upload report as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: weekly-report
+          path: ${{ steps.find_report.outputs.report_file }}
+
+      - name: Send report by email
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 587
+          username: ${{ secrets.MAIL_USERNAME }}
+          password: ${{ secrets.MAIL_PASSWORD }}
+          subject: "PUC Weekly Bird Report"
+          from: "PUC Report Bot <${{ secrets.MAIL_USERNAME }}>"
+          to: "pedrojanssen5@gmail.com"
+          body: "Attached is your PUC weekly bird report."
+          secure: true
+          attachments: ${{ steps.find_report.outputs.report_file }}
