@@ -9,7 +9,6 @@ fontsize: 11pt
 geometry: margin=1in
 ---
 
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
 
@@ -26,7 +25,7 @@ reason  <- NULL
 
 # --- Robust path lookup for master_detections.csv ---
 
-# Try both from repo root and from scripts/ (one level below)
+# We try both from repo root and from scripts/ (one level below)
 candidate_paths <- c(
   "data/master_detections.csv",
   "../data/master_detections.csv"
@@ -49,7 +48,7 @@ if (is.null(path_master)) {
 } else {
   df_raw <- read_csv(path_master, show_col_types = FALSE)
 
-  # auto-detect species + time
+  # auto-detect species + time columns
   species_col <- intersect(
     c("species.commonName","species.scientificName","species","commonName"),
     names(df_raw)
