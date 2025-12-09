@@ -74,5 +74,4 @@ jobs:
 
           subject: "PUC Weekly Bird Report"
           body: "Attached is your PUC weekly bird report (last 7 days)."
-          secure: true
           attachments: ${{ steps.find_report.outputs.report_file }}
