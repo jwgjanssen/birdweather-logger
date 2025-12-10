@@ -57,12 +57,23 @@ repeat {
 
   cat("Requesting page", page_idx, "with cursor =", ifelse(is.null(cursor), "NULL", cursor), "...\n")
 
-  res <- GET(base_url, query = query)
+ # at top you already have: library(httr)
 
-  if (http_error(res)) {
-    stop("API request failed with status: ", status_code(res), "\nBody:\n",
-         content(res, as = "text", encoding = "UTF-8"))
-  }
+res <- RETRY(
+  "GET",
+  base_url,
+  query = query,
+  times = 5,        # number of attempts
+  pause_base = 2,   # base wait (seconds)
+  pause_cap  = 30,  # max wait between retries
+  terminate_on = c(400, 401, 403, 404) # don’t retry obvious client errors
+)
+
+if (http_error(res)) {
+  status <- status_code(res)
+  body_text <- content(res, as = "text", encoding = "UTF-8")
+  stop("API request failed after retries. Status: ", status, "\nBody:\n", body_text)
+}
 
   json_txt  <- content(res, as = "text", encoding = "UTF-8")
   json_data <- fromJSON(json_txt, flatten = TRUE)
