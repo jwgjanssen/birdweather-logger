@@ -1,154 +1,156 @@
 species,hour,n_detections
-Black Redstart,4,1
 Black Redstart,5,1
-Black Redstart,6,1
-Black Redstart,7,2
-Black Redstart,8,243
-Black Redstart,9,64
-Black Redstart,10,123
-Black Redstart,11,71
-Black Redstart,12,103
-Black Redstart,13,126
-Black Redstart,14,368
-Black Redstart,15,218
-Black Redstart,16,305
-Carrion Crow,7,18
+Black Redstart,6,4
+Black Redstart,7,6
+Black Redstart,8,260
+Black Redstart,9,280
+Black Redstart,10,93
+Black Redstart,11,414
+Black Redstart,12,266
+Black Redstart,13,548
+Black Redstart,14,344
+Black Redstart,15,635
+Black Redstart,16,496
+Black Redstart,17,68
+Carrion Crow,6,3
+Carrion Crow,7,90
 Carrion Crow,8,43
-Carrion Crow,9,8
+Carrion Crow,9,3
 Carrion Crow,10,3
-Carrion Crow,12,1
-Carrion Crow,16,15
-Carrion Crow,17,27
-Dunnock,5,1
-Dunnock,6,3
+Carrion Crow,11,4
+Carrion Crow,13,1
+Carrion Crow,14,1
+Carrion Crow,16,12
+Carrion Crow,17,63
+Carrion Crow,18,28
+Dunnock,6,5
 Dunnock,7,7
-Dunnock,8,11
-Dunnock,9,24
-Dunnock,10,10
-Dunnock,11,24
-Dunnock,12,6
-Dunnock,13,20
-Dunnock,14,7
-Dunnock,15,11
-Dunnock,16,14
-Dunnock,17,3
-Dunnock,19,2
-Eurasian Blue Tit,3,1
-Eurasian Blue Tit,5,2
-Eurasian Blue Tit,6,4
-Eurasian Blue Tit,7,3
-Eurasian Blue Tit,8,150
-Eurasian Blue Tit,9,157
-Eurasian Blue Tit,10,149
-Eurasian Blue Tit,11,216
-Eurasian Blue Tit,12,79
-Eurasian Blue Tit,13,108
-Eurasian Blue Tit,14,41
-Eurasian Blue Tit,15,76
-Eurasian Blue Tit,16,68
-Eurasian Blue Tit,17,4
-Eurasian Jackdaw,8,33
-Eurasian Jackdaw,9,18
-Eurasian Jackdaw,10,15
-Eurasian Jackdaw,11,12
-Eurasian Jackdaw,12,28
-Eurasian Jackdaw,13,6
+Dunnock,8,23
+Dunnock,9,23
+Dunnock,10,19
+Dunnock,11,39
+Dunnock,12,17
+Dunnock,13,23
+Dunnock,14,14
+Dunnock,15,18
+Dunnock,16,17
+Dunnock,17,9
+Dunnock,18,1
+Dunnock,23,1
+Eurasian Blue Tit,6,9
+Eurasian Blue Tit,7,50
+Eurasian Blue Tit,8,251
+Eurasian Blue Tit,9,220
+Eurasian Blue Tit,10,371
+Eurasian Blue Tit,11,314
+Eurasian Blue Tit,12,243
+Eurasian Blue Tit,13,218
+Eurasian Blue Tit,14,174
+Eurasian Blue Tit,15,175
+Eurasian Blue Tit,16,230
+Eurasian Blue Tit,17,24
+Eurasian Jackdaw,5,1
+Eurasian Jackdaw,6,4
+Eurasian Jackdaw,7,211
+Eurasian Jackdaw,8,46
+Eurasian Jackdaw,9,3
+Eurasian Jackdaw,10,12
+Eurasian Jackdaw,11,11
+Eurasian Jackdaw,12,7
+Eurasian Jackdaw,13,10
 Eurasian Jackdaw,14,8
-Eurasian Jackdaw,15,9
-Eurasian Jackdaw,16,23
-Eurasian Jackdaw,17,7
-Eurasian Magpie,2,3
-Eurasian Magpie,3,8
-Eurasian Magpie,4,11
-Eurasian Magpie,5,51
-Eurasian Magpie,6,5
-Eurasian Magpie,7,11
-Eurasian Magpie,8,33
-Eurasian Magpie,9,15
-Eurasian Magpie,10,12
-Eurasian Magpie,11,9
+Eurasian Jackdaw,15,3
+Eurasian Jackdaw,16,41
+Eurasian Jackdaw,17,86
+Eurasian Jackdaw,18,53
+Eurasian Jackdaw,19,2
+Eurasian Jackdaw,20,2
+Eurasian Jackdaw,21,1
+Eurasian Jackdaw,22,2
+Eurasian Jackdaw,23,2
+Eurasian Magpie,5,8
+Eurasian Magpie,6,4
+Eurasian Magpie,7,23
+Eurasian Magpie,8,76
+Eurasian Magpie,9,35
+Eurasian Magpie,10,15
+Eurasian Magpie,11,36
 Eurasian Magpie,12,13
-Eurasian Magpie,13,5
-Eurasian Magpie,14,20
-Eurasian Magpie,15,12
-Eurasian Magpie,16,7
-European Robin,0,1
+Eurasian Magpie,13,34
+Eurasian Magpie,14,53
+Eurasian Magpie,15,21
+Eurasian Magpie,16,9
+Eurasian Magpie,17,27
+European Robin,1,1
+European Robin,2,1
 European Robin,3,2
-European Robin,4,18
-European Robin,5,178
-European Robin,6,595
-European Robin,7,584
-European Robin,8,160
-European Robin,9,88
-European Robin,10,103
-European Robin,11,64
-European Robin,12,61
-European Robin,13,39
-European Robin,14,37
-European Robin,15,40
-European Robin,16,64
-European Robin,17,98
-European Robin,18,2
-European Robin,19,3
+European Robin,4,4
+European Robin,5,29
+European Robin,6,605
+European Robin,7,438
+European Robin,8,91
+European Robin,9,66
+European Robin,10,74
+European Robin,11,37
+European Robin,12,41
+European Robin,13,45
+European Robin,14,53
+European Robin,15,66
+European Robin,16,77
+European Robin,17,57
+European Robin,18,27
+European Robin,19,2
 European Robin,20,1
 European Robin,21,1
-European Robin,22,1
-European Robin,23,1
-Great Tit,6,1
-Great Tit,7,14
-Great Tit,8,192
-Great Tit,9,112
-Great Tit,10,78
-Great Tit,11,80
-Great Tit,12,107
-Great Tit,13,68
-Great Tit,14,144
-Great Tit,15,140
-Great Tit,16,145
-Great Tit,17,23
-Great Tit,18,1
+Great Tit,5,1
+Great Tit,7,34
+Great Tit,8,244
+Great Tit,9,100
+Great Tit,10,126
+Great Tit,11,118
+Great Tit,12,196
+Great Tit,13,183
+Great Tit,14,284
+Great Tit,15,401
+Great Tit,16,183
+Great Tit,17,232
 Great Tit,22,1
-Redwing,0,2
-Redwing,1,3
-Redwing,2,4
-Redwing,3,1
-Redwing,4,2
-Redwing,6,13
-Redwing,7,27
+Redwing,5,1
+Redwing,6,7
+Redwing,7,15
 Redwing,8,34
-Redwing,9,33
-Redwing,10,21
-Redwing,11,30
-Redwing,12,22
-Redwing,13,10
-Redwing,14,12
-Redwing,15,7
-Redwing,16,8
-Redwing,17,14
-Redwing,20,3
-Redwing,21,1
+Redwing,9,25
+Redwing,10,13
+Redwing,11,13
+Redwing,12,15
+Redwing,13,14
+Redwing,14,10
+Redwing,15,14
+Redwing,16,15
+Redwing,17,16
+Redwing,18,1
 Redwing,22,1
-Redwing,23,1
-Song Thrush,0,9
-Song Thrush,1,4
+Song Thrush,0,8
+Song Thrush,1,13
 Song Thrush,2,4
-Song Thrush,3,4
-Song Thrush,4,2
-Song Thrush,5,4
-Song Thrush,6,6
-Song Thrush,7,12
-Song Thrush,8,24
-Song Thrush,9,14
-Song Thrush,10,15
-Song Thrush,11,17
-Song Thrush,12,6
+Song Thrush,3,15
+Song Thrush,4,12
+Song Thrush,5,14
+Song Thrush,6,9
+Song Thrush,7,18
+Song Thrush,8,14
+Song Thrush,9,11
+Song Thrush,10,6
+Song Thrush,11,15
+Song Thrush,12,4
 Song Thrush,13,13
-Song Thrush,14,11
-Song Thrush,15,9
-Song Thrush,16,11
-Song Thrush,17,10
-Song Thrush,18,7
-Song Thrush,19,1
-Song Thrush,20,2
-Song Thrush,21,9
-Song Thrush,23,1
+Song Thrush,14,9
+Song Thrush,15,14
+Song Thrush,16,12
+Song Thrush,17,15
+Song Thrush,18,6
+Song Thrush,19,2
+Song Thrush,20,8
+Song Thrush,21,8
+Song Thrush,22,5
+Song Thrush,23,10
