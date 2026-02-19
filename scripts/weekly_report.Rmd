@@ -10,7 +10,7 @@ fontsize: 11pt
 geometry: margin=1in
 ---
 
-```{r setup, echo=FALSE}
+```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
 
 library(readr)
