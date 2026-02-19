@@ -1,4 +1,4 @@
-```{r}
+```r
 ---
 title: "BirdNET-Pi Weekly Bird Report"
 author: "BirdWeather / PUC"
