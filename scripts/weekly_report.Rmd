@@ -1,9 +1,8 @@
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
 ```
 
-```r
 ---
 title: "BirdNET-Pi Weekly Bird Report"
 author: "BirdWeather / PUC"
@@ -15,8 +14,6 @@ fontsize: 11pt
 geometry: margin=1in
 ---
 
-```{r setup}
-knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
 
 library(readr)
 library(dplyr)
