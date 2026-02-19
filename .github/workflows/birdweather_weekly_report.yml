@@ -48,7 +48,7 @@ jobs:
       - name: Find report filename
         id: find_report
         run: |
-          FILE=$(ls reports/PUC_weekly_report_*.pdf | sort | tail -n 1)
+          FILE=$(ls reports/BirdNET-Pi_weekly_report_*.pdf | sort | tail -n 1)
           echo "report_file=$FILE" >> $GITHUB_OUTPUT
           echo "Found report: $FILE"
 
