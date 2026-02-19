@@ -1,6 +1,7 @@
-```r
+```{r include = FALSE}
+#```r
 ---
-title: "PUC Weekly Bird Report"
+title: "BirdNET-Pi Weekly Bird Report"
 author: "BirdWeather / PUC"
 output:
   pdf_document:
