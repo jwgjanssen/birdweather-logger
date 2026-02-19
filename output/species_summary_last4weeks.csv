@@ -1,0 +1,84 @@
+species,n_detections,n_days,occupancy_prop,category
+Black Redstart,3374,27,0.9310344827586207,core
+Eurasian Blue Tit,2559,28,0.9655172413793104,core
+Great Tit,2125,28,0.9655172413793104,core
+European Robin,1770,28,0.9655172413793104,core
+Eurasian Jackdaw,602,24,0.8275862068965517,core
+Eurasian Magpie,395,27,0.9310344827586207,core
+Carrion Crow,278,25,0.8620689655172413,core
+Song Thrush,258,28,0.9655172413793104,core
+Dunnock,234,26,0.896551724137931,core
+Redwing,199,28,0.9655172413793104,core
+European Goldfinch,156,28,0.9655172413793104,core
+Black-headed Gull,154,17,0.5862068965517241,core
+House Sparrow,107,3,0.10344827586206896,regular
+Common Sandpiper,105,26,0.896551724137931,core
+Short-toed Treecreeper,99,18,0.6206896551724138,core
+Greater White-fronted Goose,94,16,0.5517241379310345,core
+Tawny Owl,88,23,0.7931034482758621,core
+Green Sandpiper,82,24,0.8275862068965517,core
+Coal Tit,68,16,0.5517241379310345,core
+Eurasian Coot,54,20,0.6896551724137931,core
+Goldcrest,49,19,0.6551724137931034,core
+Common Wood-Pigeon,45,5,0.1724137931034483,regular
+Long-tailed Tit,32,14,0.4827586206896552,regular
+Eurasian Moorhen,31,15,0.5172413793103449,core
+Common Crane,20,16,0.5517241379310345,core
+Gray Wagtail,18,12,0.41379310344827586,regular
+Common Chiffchaff,17,12,0.41379310344827586,regular
+European Greenfinch,17,6,0.20689655172413793,regular
+Eurasian Blackbird,16,4,0.13793103448275862,regular
+Eurasian Siskin,16,9,0.3103448275862069,regular
+Barn Owl,14,6,0.20689655172413793,regular
+Great Spotted Woodpecker,14,8,0.27586206896551724,regular
+Common Chaffinch,13,8,0.27586206896551724,regular
+European Stonechat,13,10,0.3448275862068966,regular
+Common Firecrest,12,8,0.27586206896551724,regular
+Eurasian Wren,12,4,0.13793103448275862,regular
+Long-eared Owl,12,6,0.20689655172413793,regular
+Crested Tit,11,8,0.27586206896551724,regular
+Ruddy Turnstone,9,7,0.2413793103448276,regular
+White Wagtail,9,5,0.1724137931034483,regular
+Common Kingfisher,8,5,0.1724137931034483,regular
+Green-winged Teal,8,5,0.1724137931034483,regular
+Ring-necked Pheasant (Ring-necked),8,6,0.20689655172413793,regular
+Pink-footed Goose,7,6,0.20689655172413793,regular
+Yellowhammer,7,5,0.1724137931034483,regular
+Eurasian Collared-Dove,6,3,0.10344827586206896,regular
+Graylag Goose,6,2,0.06896551724137931,occasional
+Hawfinch,6,4,0.13793103448275862,regular
+Reed Bunting,6,4,0.13793103448275862,regular
+Eurasian Kestrel,5,4,0.13793103448275862,regular
+Eurasian Treecreeper,5,4,0.13793103448275862,regular
+Common Buzzard,4,3,0.10344827586206896,regular
+European Golden-Plover,4,3,0.10344827586206896,regular
+Gray Heron,4,4,0.13793103448275862,regular
+Mallard,4,4,0.13793103448275862,regular
+Dunlin,3,1,0.034482758620689655,occasional
+Eurasian Jay,3,2,0.06896551724137931,occasional
+Eurasian Oystercatcher,3,2,0.06896551724137931,occasional
+Whooper Swan,3,3,0.10344827586206896,regular
+Black-bellied Plover,2,2,0.06896551724137931,occasional
+Eurasian Curlew,2,1,0.034482758620689655,occasional
+Eurasian Green Woodpecker,2,1,0.034482758620689655,occasional
+Gadwall,2,2,0.06896551724137931,occasional
+Gray Partridge,2,2,0.06896551724137931,occasional
+Marsh Tit,2,1,0.034482758620689655,occasional
+Water Rail,2,2,0.06896551724137931,occasional
+Barnacle Goose,1,1,0.034482758620689655,occasional
+Common Greenshank,1,1,0.034482758620689655,occasional
+Common Redshank,1,1,0.034482758620689655,occasional
+Common Ringed Plover,1,1,0.034482758620689655,occasional
+Common Scoter,1,1,0.034482758620689655,occasional
+Common Snipe,1,1,0.034482758620689655,occasional
+Egyptian Goose,1,1,0.034482758620689655,occasional
+Eurasian Bullfinch,1,1,0.034482758620689655,occasional
+Eurasian Wigeon,1,1,0.034482758620689655,occasional
+Eurasian Woodcock,1,1,0.034482758620689655,occasional
+Lesser Spotted Woodpecker,1,1,0.034482758620689655,occasional
+Little Owl,1,1,0.034482758620689655,occasional
+Meadow Pipit,1,1,0.034482758620689655,occasional
+Rook,1,1,0.034482758620689655,occasional
+Willow Tit,1,1,0.034482758620689655,occasional
+Wood Lark,1,1,0.034482758620689655,occasional
+Yellow-legged Gull,1,1,0.034482758620689655,occasional
