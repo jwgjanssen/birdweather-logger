@@ -13,7 +13,7 @@ if (!dir.exists(out_dir)) {
   dir.create(out_dir, showWarnings = FALSE, recursive = TRUE)
 }
 
-pdf_name <- paste0("PUC_weekly_report_", today_local, ".pdf")
+pdf_name <- paste0("BirdNET-Pi_weekly_report_", today_local, ".pdf")
 dest     <- file.path(out_dir, pdf_name)
 
 # Render directly into reports/

@@ -17,8 +17,8 @@ output_dir <- "output"
 
 # Approximate coordinates of your main site (for sunrise)
 # Set these to your garden / station location if you want more precision
-lat_site <- 52.0   # e.g. 52.0 for NL
-lon_site <- 5.0    # e.g. 5.0 for NL
+lat_site <- 51.6   # e.g. 52.0 for NL
+lon_site <- 6.0    # e.g. 5.0 for NL
 
 # ---------------- LOAD & PREPARE DATA ----------------
 
