@@ -1,84 +1,81 @@
 species,first_date,cum_species
-Black Redstart,2026-01-22,1
-Black-headed Gull,2026-01-22,2
-Carrion Crow,2026-01-22,3
-Coal Tit,2026-01-22,4
-Common Chiffchaff,2026-01-22,5
-Common Ringed Plover,2026-01-22,6
-Common Sandpiper,2026-01-22,7
-Dunnock,2026-01-22,8
-Eurasian Blackbird,2026-01-22,9
-Eurasian Blue Tit,2026-01-22,10
-Eurasian Coot,2026-01-22,11
-Eurasian Jackdaw,2026-01-22,12
-Eurasian Magpie,2026-01-22,13
-Eurasian Treecreeper,2026-01-22,14
-European Goldfinch,2026-01-22,15
-European Robin,2026-01-22,16
-Goldcrest,2026-01-22,17
-Gray Wagtail,2026-01-22,18
-Great Tit,2026-01-22,19
-Green Sandpiper,2026-01-22,20
-Long-tailed Tit,2026-01-22,21
-Marsh Tit,2026-01-22,22
-Redwing,2026-01-22,23
-Ruddy Turnstone,2026-01-22,24
-Short-toed Treecreeper,2026-01-22,25
-Song Thrush,2026-01-22,26
-Tawny Owl,2026-01-22,27
-Common Crane,2026-01-23,28
-Eurasian Moorhen,2026-01-23,29
-Eurasian Wren,2026-01-23,30
-Greater White-fronted Goose,2026-01-23,31
-Green-winged Teal,2026-01-23,32
-Little Owl,2026-01-23,33
-Common Chaffinch,2026-01-24,34
-Crested Tit,2026-01-24,35
-Dunlin,2026-01-24,36
-Eurasian Siskin,2026-01-24,37
-European Greenfinch,2026-01-24,38
-European Stonechat,2026-01-24,39
-Yellowhammer,2026-01-24,40
-Common Wood-Pigeon,2026-01-25,41
-Eurasian Green Woodpecker,2026-01-25,42
-Gray Partridge,2026-01-25,43
-Mallard,2026-01-25,44
-Reed Bunting,2026-01-25,45
-White Wagtail,2026-01-25,46
-Barn Owl,2026-01-26,47
-Great Spotted Woodpecker,2026-01-26,48
-Pink-footed Goose,2026-01-26,49
-Barnacle Goose,2026-01-27,50
-Eurasian Kestrel,2026-01-27,51
-Gray Heron,2026-01-27,52
-Common Buzzard,2026-01-28,53
-Long-eared Owl,2026-01-29,54
-Common Firecrest,2026-01-30,55
-Ring-necked Pheasant (Ring-necked),2026-01-30,56
-Eurasian Jay,2026-01-31,57
-Graylag Goose,2026-02-01,58
-Hawfinch,2026-02-01,59
-Common Scoter,2026-02-02,60
-Eurasian Curlew,2026-02-02,61
-European Golden-Plover,2026-02-02,62
-Eurasian Bullfinch,2026-02-03,63
-Gadwall,2026-02-03,64
-Willow Tit,2026-02-03,65
-Black-bellied Plover,2026-02-04,66
-House Sparrow,2026-02-05,67
-Yellow-legged Gull,2026-02-05,68
-Eurasian Wigeon,2026-02-06,69
-Eurasian Oystercatcher,2026-02-07,70
-Common Kingfisher,2026-02-08,71
-Lesser Spotted Woodpecker,2026-02-09,72
-Water Rail,2026-02-09,73
-Whooper Swan,2026-02-09,74
-Wood Lark,2026-02-10,75
-Eurasian Collared-Dove,2026-02-12,76
-Common Redshank,2026-02-14,77
-Common Greenshank,2026-02-15,78
-Rook,2026-02-15,79
-Meadow Pipit,2026-02-16,80
-Common Snipe,2026-02-18,81
-Egyptian Goose,2026-02-18,82
-Eurasian Woodcock,2026-02-19,83
+Barn Owl,2026-01-26,1
+Black Redstart,2026-01-26,2
+Black-headed Gull,2026-01-26,3
+Carrion Crow,2026-01-26,4
+Coal Tit,2026-01-26,5
+Common Crane,2026-01-26,6
+Common Sandpiper,2026-01-26,7
+Dunnock,2026-01-26,8
+Eurasian Blue Tit,2026-01-26,9
+Eurasian Coot,2026-01-26,10
+Eurasian Magpie,2026-01-26,11
+European Goldfinch,2026-01-26,12
+European Robin,2026-01-26,13
+Goldcrest,2026-01-26,14
+Gray Wagtail,2026-01-26,15
+Great Spotted Woodpecker,2026-01-26,16
+Great Tit,2026-01-26,17
+Greater White-fronted Goose,2026-01-26,18
+Green Sandpiper,2026-01-26,19
+Green-winged Teal,2026-01-26,20
+Pink-footed Goose,2026-01-26,21
+Redwing,2026-01-26,22
+Short-toed Treecreeper,2026-01-26,23
+Song Thrush,2026-01-26,24
+Tawny Owl,2026-01-26,25
+Barnacle Goose,2026-01-27,26
+Eurasian Jackdaw,2026-01-27,27
+Eurasian Kestrel,2026-01-27,28
+Eurasian Siskin,2026-01-27,29
+Eurasian Treecreeper,2026-01-27,30
+European Greenfinch,2026-01-27,31
+Gray Heron,2026-01-27,32
+White Wagtail,2026-01-27,33
+Common Buzzard,2026-01-28,34
+Common Chiffchaff,2026-01-28,35
+Eurasian Moorhen,2026-01-28,36
+Long-tailed Tit,2026-01-28,37
+Long-eared Owl,2026-01-29,38
+Common Firecrest,2026-01-30,39
+Ring-necked Pheasant (Ring-necked),2026-01-30,40
+Common Chaffinch,2026-01-31,41
+Eurasian Jay,2026-01-31,42
+European Stonechat,2026-01-31,43
+Yellowhammer,2026-01-31,44
+Common Wood-Pigeon,2026-02-01,45
+Crested Tit,2026-02-01,46
+Graylag Goose,2026-02-01,47
+Hawfinch,2026-02-01,48
+Mallard,2026-02-01,49
+Common Scoter,2026-02-02,50
+Eurasian Curlew,2026-02-02,51
+European Golden-Plover,2026-02-02,52
+Ruddy Turnstone,2026-02-02,53
+Eurasian Bullfinch,2026-02-03,54
+Gadwall,2026-02-03,55
+Willow Tit,2026-02-03,56
+Black-bellied Plover,2026-02-04,57
+Gray Partridge,2026-02-04,58
+House Sparrow,2026-02-05,59
+Yellow-legged Gull,2026-02-05,60
+Eurasian Wigeon,2026-02-06,61
+Eurasian Oystercatcher,2026-02-07,62
+Eurasian Wren,2026-02-07,63
+Common Kingfisher,2026-02-08,64
+Eurasian Blackbird,2026-02-08,65
+Lesser Spotted Woodpecker,2026-02-09,66
+Reed Bunting,2026-02-09,67
+Water Rail,2026-02-09,68
+Whooper Swan,2026-02-09,69
+Wood Lark,2026-02-10,70
+Eurasian Collared-Dove,2026-02-12,71
+Common Redshank,2026-02-14,72
+Common Greenshank,2026-02-15,73
+Rook,2026-02-15,74
+Meadow Pipit,2026-02-16,75
+Common Snipe,2026-02-18,76
+Egyptian Goose,2026-02-18,77
+Canada Goose,2026-02-19,78
+Eurasian Woodcock,2026-02-19,79
+Eurasian Nuthatch,2026-02-20,80
