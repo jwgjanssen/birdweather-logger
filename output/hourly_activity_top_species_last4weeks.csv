@@ -1,154 +1,64 @@
 species,hour,n_detections
-Black Redstart,5,2
-Black Redstart,6,4
-Black Redstart,7,16
-Black Redstart,8,217
-Black Redstart,9,273
-Black Redstart,10,69
-Black Redstart,11,382
-Black Redstart,12,221
-Black Redstart,13,537
-Black Redstart,14,203
-Black Redstart,15,463
-Black Redstart,16,319
-Black Redstart,17,68
-Carrion Crow,6,7
-Carrion Crow,7,117
-Carrion Crow,8,28
-Carrion Crow,9,5
-Carrion Crow,10,1
-Carrion Crow,11,7
-Carrion Crow,12,4
-Carrion Crow,13,4
-Carrion Crow,14,2
-Carrion Crow,15,6
-Carrion Crow,16,2
-Carrion Crow,17,45
-Carrion Crow,18,58
-Dunnock,6,9
-Dunnock,7,35
-Dunnock,8,52
-Dunnock,9,81
-Dunnock,10,114
-Dunnock,11,86
-Dunnock,12,32
-Dunnock,13,42
-Dunnock,14,18
-Dunnock,15,13
-Dunnock,16,12
-Dunnock,17,13
-Dunnock,18,1
-Dunnock,23,1
-Eurasian Blue Tit,6,10
-Eurasian Blue Tit,7,98
-Eurasian Blue Tit,8,293
-Eurasian Blue Tit,9,269
-Eurasian Blue Tit,10,361
-Eurasian Blue Tit,11,293
-Eurasian Blue Tit,12,307
-Eurasian Blue Tit,13,294
-Eurasian Blue Tit,14,285
-Eurasian Blue Tit,15,197
-Eurasian Blue Tit,16,210
-Eurasian Blue Tit,17,59
-Eurasian Jackdaw,5,22
-Eurasian Jackdaw,6,104
-Eurasian Jackdaw,7,473
-Eurasian Jackdaw,8,61
-Eurasian Jackdaw,9,43
-Eurasian Jackdaw,10,20
-Eurasian Jackdaw,11,16
-Eurasian Jackdaw,12,31
-Eurasian Jackdaw,13,29
-Eurasian Jackdaw,14,9
-Eurasian Jackdaw,15,52
-Eurasian Jackdaw,16,33
-Eurasian Jackdaw,17,266
-Eurasian Jackdaw,18,67
-Eurasian Jackdaw,19,3
-Eurasian Jackdaw,20,2
-Eurasian Jackdaw,21,1
-Eurasian Jackdaw,22,3
-Eurasian Jackdaw,23,2
-Eurasian Magpie,5,8
-Eurasian Magpie,6,1
-Eurasian Magpie,7,20
-Eurasian Magpie,8,83
-Eurasian Magpie,9,37
-Eurasian Magpie,10,21
-Eurasian Magpie,11,75
-Eurasian Magpie,12,25
-Eurasian Magpie,13,40
-Eurasian Magpie,14,56
-Eurasian Magpie,15,22
-Eurasian Magpie,16,10
-Eurasian Magpie,17,30
-European Robin,1,1
-European Robin,2,1
-European Robin,3,2
-European Robin,4,4
-European Robin,5,31
-European Robin,6,644
-European Robin,7,415
-European Robin,8,82
-European Robin,9,58
-European Robin,10,59
-European Robin,11,33
-European Robin,12,31
-European Robin,13,42
-European Robin,14,36
-European Robin,15,48
-European Robin,16,56
-European Robin,17,32
-European Robin,18,26
-European Robin,19,1
-European Robin,20,1
-European Robin,21,1
-Great Tit,5,1
-Great Tit,6,1
-Great Tit,7,53
-Great Tit,8,205
-Great Tit,9,111
-Great Tit,10,134
-Great Tit,11,132
-Great Tit,12,222
-Great Tit,13,216
-Great Tit,14,264
-Great Tit,15,325
-Great Tit,16,197
-Great Tit,17,221
-House Sparrow,7,1
-House Sparrow,8,139
-House Sparrow,9,106
-House Sparrow,10,132
-House Sparrow,11,58
-House Sparrow,12,70
-House Sparrow,13,32
-House Sparrow,14,60
-House Sparrow,15,21
-House Sparrow,16,74
-House Sparrow,17,8
-Song Thrush,0,8
-Song Thrush,1,12
-Song Thrush,2,5
-Song Thrush,3,15
-Song Thrush,4,12
-Song Thrush,5,14
-Song Thrush,6,8
-Song Thrush,7,18
-Song Thrush,8,15
-Song Thrush,9,6
-Song Thrush,10,6
-Song Thrush,11,12
-Song Thrush,12,5
-Song Thrush,13,10
-Song Thrush,14,5
-Song Thrush,15,11
-Song Thrush,16,13
-Song Thrush,17,11
-Song Thrush,18,5
-Song Thrush,19,4
-Song Thrush,20,8
-Song Thrush,21,4
-Song Thrush,22,5
-Song Thrush,23,11
+Carrion Crow,7,7
+Carrion Crow,8,1
+Carrion Crow,17,1
+Carrion Crow,18,6
+Dunnock,7,21
+Dunnock,8,13
+Dunnock,9,32
+Dunnock,10,19
+Dunnock,11,10
+Dunnock,12,5
+Dunnock,13,17
+Dunnock,14,5
+Dunnock,15,1
+Eurasian Blackbird,18,10
+Eurasian Blue Tit,7,13
+Eurasian Blue Tit,8,6
+Eurasian Blue Tit,10,2
+Eurasian Blue Tit,11,5
+Eurasian Blue Tit,12,2
+Eurasian Blue Tit,13,4
+Eurasian Blue Tit,14,12
+Eurasian Blue Tit,15,34
+Eurasian Blue Tit,16,6
+Eurasian Blue Tit,17,6
+Eurasian Jackdaw,5,21
+Eurasian Jackdaw,6,98
+Eurasian Jackdaw,7,58
+Eurasian Jackdaw,8,2
+Eurasian Jackdaw,9,15
+Eurasian Jackdaw,13,1
+Eurasian Jackdaw,15,3
+Eurasian Jackdaw,16,5
+Eurasian Jackdaw,17,44
+Eurasian Jackdaw,18,1
+Eurasian Jackdaw,19,1
+Eurasian Magpie,8,1
+Eurasian Magpie,9,1
+Eurasian Magpie,11,1
+Eurasian Magpie,12,6
+Eurasian Magpie,14,2
+Eurasian Wren,15,13
+Eurasian Wren,18,3
+Great Tit,8,1
+Great Tit,9,5
+Great Tit,10,3
+Great Tit,11,2
+Great Tit,12,5
+Great Tit,13,5
+Great Tit,15,18
+Great Tit,16,7
+Great Tit,17,3
+House Sparrow,8,52
+House Sparrow,9,15
+House Sparrow,10,19
+House Sparrow,11,31
+House Sparrow,12,29
+House Sparrow,13,21
+House Sparrow,14,32
+House Sparrow,15,4
+House Sparrow,16,37
+House Sparrow,17,1
+Tawny Owl,1,7
+Tawny Owl,22,2

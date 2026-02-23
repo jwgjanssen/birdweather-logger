@@ -1,81 +1,27 @@
 species,n_total,n_dawn,dawn_ratio
-Black Redstart,2774,506,0.18240807498197548
-Eurasian Blue Tit,2676,658,0.24588938714499253
-Great Tit,2082,358,0.17195004803073968
-European Robin,1604,174,0.1084788029925187
-Eurasian Jackdaw,1237,523,0.42279708973322555
-House Sparrow,701,214,0.30527817403708984
-Dunnock,509,147,0.2888015717092338
-Eurasian Magpie,428,137,0.32009345794392524
-Carrion Crow,286,124,0.43356643356643354
-Song Thrush,223,25,0.11210762331838565
-Redwing,162,53,0.3271604938271605
-Greater White-fronted Goose,132,34,0.25757575757575757
-European Goldfinch,131,18,0.13740458015267176
-Short-toed Treecreeper,125,23,0.184
-Black-headed Gull,123,11,0.08943089430894309
-Common Sandpiper,95,64,0.6736842105263158
-Tawny Owl,84,0,0
-Green Sandpiper,62,24,0.3870967741935484
-Coal Tit,61,13,0.21311475409836064
-Common Wood-Pigeon,53,45,0.8490566037735849
-Eurasian Coot,50,4,0.08
-Goldcrest,46,3,0.06521739130434782
-Common Chaffinch,38,9,0.23684210526315788
-Long-tailed Tit,35,6,0.17142857142857143
-Eurasian Moorhen,29,0,0
-Eurasian Wren,29,1,0.034482758620689655
-Eurasian Blackbird,22,4,0.18181818181818182
-European Greenfinch,19,10,0.5263157894736842
-Common Crane,18,5,0.2777777777777778
-Barn Owl,15,2,0.13333333333333333
-Eurasian Siskin,15,3,0.2
-Gray Wagtail,15,3,0.2
-Great Spotted Woodpecker,15,3,0.2
-Common Firecrest,13,1,0.07692307692307693
-European Stonechat,12,2,0.16666666666666666
-Long-eared Owl,12,1,0.08333333333333333
-Mallard,12,0,0
-Common Chiffchaff,11,3,0.2727272727272727
-Graylag Goose,11,8,0.7272727272727273
-Common Buzzard,10,6,0.6
-Crested Tit,10,1,0.1
-Eurasian Collared-Dove,9,6,0.6666666666666666
-Common Kingfisher,8,3,0.375
-Common Snipe,8,0,0
-Hawfinch,8,2,0.25
-Ring-necked Pheasant (Ring-necked),8,0,0
-Ruddy Turnstone,8,1,0.125
-Pink-footed Goose,7,2,0.2857142857142857
-White Wagtail,7,2,0.2857142857142857
-Green-winged Teal,6,1,0.16666666666666666
-Yellowhammer,6,4,0.6666666666666666
-Eurasian Jay,5,2,0.4
-Eurasian Kestrel,5,5,1
-Gray Heron,5,2,0.4
-Reed Bunting,5,0,0
-Eurasian Treecreeper,4,1,0.25
-European Golden-Plover,4,1,0.25
-Canada Goose,3,0,0
-Egyptian Goose,3,1,0.3333333333333333
-Eurasian Oystercatcher,3,0,0
-Whooper Swan,3,0,0
-Black-bellied Plover,2,0,0
-Eurasian Curlew,2,0,0
-Eurasian Nuthatch,2,0,0
-Gadwall,2,2,1
-Water Rail,2,0,0
-Barnacle Goose,1,0,0
-Common Greenshank,1,0,0
-Common Redshank,1,0,0
-Common Scoter,1,0,0
-Eurasian Bullfinch,1,0,0
-Eurasian Wigeon,1,0,0
-Eurasian Woodcock,1,0,0
-Gray Partridge,1,0,0
-Lesser Spotted Woodpecker,1,0,0
-Meadow Pipit,1,0,0
-Rook,1,0,0
-Willow Tit,1,0,0
-Wood Lark,1,0,0
-Yellow-legged Gull,1,0,0
+Eurasian Jackdaw,249,49,0.19678714859437751
+House Sparrow,241,65,0.2697095435684647
+Dunnock,123,62,0.5040650406504065
+Eurasian Blue Tit,90,19,0.2111111111111111
+Great Tit,49,3,0.061224489795918366
+Eurasian Wren,16,0,0
+Carrion Crow,15,8,0.5333333333333333
+Eurasian Magpie,11,1,0.09090909090909091
+Eurasian Blackbird,10,0,0
+Tawny Owl,9,0,0
+Common Wood-Pigeon,8,6,0.75
+Common Chaffinch,5,0,0
+Short-toed Treecreeper,3,2,0.6666666666666666
+Common Snipe,2,0,0
+Eurasian Collared-Dove,2,2,1
+Eurasian Coot,2,0,0
+European Greenfinch,2,0,0
+Graylag Goose,2,1,0.5
+Greater White-fronted Goose,2,0,0
+Eurasian Jay,1,0,0
+Eurasian Nuthatch,1,0,0
+European Robin,1,1,1
+Gray Heron,1,1,1
+Long-tailed Tit,1,1,1
+Mallard,1,0,0
+Song Thrush,1,0,0

@@ -1,81 +1,27 @@
 species,n_detections,n_days,occupancy_prop,category
-Black Redstart,2774,23,0.8214285714285714,core
-Eurasian Blue Tit,2676,28,1,core
-Great Tit,2082,28,1,core
-European Robin,1604,26,0.9285714285714286,core
-Eurasian Jackdaw,1237,24,0.8571428571428571,core
-House Sparrow,701,7,0.25,regular
-Dunnock,509,27,0.9642857142857143,core
-Eurasian Magpie,428,27,0.9642857142857143,core
-Carrion Crow,286,25,0.8928571428571429,core
-Song Thrush,223,25,0.8928571428571429,core
-Redwing,162,26,0.9285714285714286,core
-Greater White-fronted Goose,132,17,0.6071428571428571,core
-European Goldfinch,131,25,0.8928571428571429,core
-Short-toed Treecreeper,125,20,0.7142857142857143,core
-Black-headed Gull,123,14,0.5,core
-Common Sandpiper,95,22,0.7857142857142857,core
-Tawny Owl,84,22,0.7857142857142857,core
-Green Sandpiper,62,22,0.7857142857142857,core
-Coal Tit,61,13,0.4642857142857143,regular
-Common Wood-Pigeon,53,7,0.25,regular
-Eurasian Coot,50,18,0.6428571428571429,core
-Goldcrest,46,17,0.6071428571428571,core
-Common Chaffinch,38,11,0.39285714285714285,regular
-Long-tailed Tit,35,16,0.5714285714285714,core
-Eurasian Moorhen,29,13,0.4642857142857143,regular
-Eurasian Wren,29,6,0.21428571428571427,regular
-Eurasian Blackbird,22,4,0.14285714285714285,regular
-European Greenfinch,19,7,0.25,regular
-Common Crane,18,14,0.5,core
-Barn Owl,15,7,0.25,regular
-Eurasian Siskin,15,8,0.2857142857142857,regular
-Gray Wagtail,15,10,0.35714285714285715,regular
-Great Spotted Woodpecker,15,9,0.32142857142857145,regular
-Common Firecrest,13,9,0.32142857142857145,regular
-European Stonechat,12,9,0.32142857142857145,regular
-Long-eared Owl,12,6,0.21428571428571427,regular
-Mallard,12,7,0.25,regular
-Common Chiffchaff,11,9,0.32142857142857145,regular
-Graylag Goose,11,6,0.21428571428571427,regular
-Common Buzzard,10,6,0.21428571428571427,regular
-Crested Tit,10,7,0.25,regular
-Eurasian Collared-Dove,9,5,0.17857142857142858,regular
-Common Kingfisher,8,5,0.17857142857142858,regular
-Common Snipe,8,3,0.10714285714285714,regular
-Hawfinch,8,6,0.21428571428571427,regular
-Ring-necked Pheasant (Ring-necked),8,6,0.21428571428571427,regular
-Ruddy Turnstone,8,6,0.21428571428571427,regular
-Pink-footed Goose,7,6,0.21428571428571427,regular
-White Wagtail,7,4,0.14285714285714285,regular
-Green-winged Teal,6,4,0.14285714285714285,regular
-Yellowhammer,6,4,0.14285714285714285,regular
-Eurasian Jay,5,4,0.14285714285714285,regular
-Eurasian Kestrel,5,4,0.14285714285714285,regular
-Gray Heron,5,5,0.17857142857142858,regular
-Reed Bunting,5,3,0.10714285714285714,regular
-Eurasian Treecreeper,4,3,0.10714285714285714,regular
-European Golden-Plover,4,3,0.10714285714285714,regular
-Canada Goose,3,2,0.07142857142857142,occasional
-Egyptian Goose,3,3,0.10714285714285714,regular
-Eurasian Oystercatcher,3,2,0.07142857142857142,occasional
-Whooper Swan,3,3,0.10714285714285714,regular
-Black-bellied Plover,2,2,0.07142857142857142,occasional
-Eurasian Curlew,2,1,0.03571428571428571,occasional
-Eurasian Nuthatch,2,2,0.07142857142857142,occasional
-Gadwall,2,2,0.07142857142857142,occasional
-Water Rail,2,2,0.07142857142857142,occasional
-Barnacle Goose,1,1,0.03571428571428571,occasional
-Common Greenshank,1,1,0.03571428571428571,occasional
-Common Redshank,1,1,0.03571428571428571,occasional
-Common Scoter,1,1,0.03571428571428571,occasional
-Eurasian Bullfinch,1,1,0.03571428571428571,occasional
-Eurasian Wigeon,1,1,0.03571428571428571,occasional
-Eurasian Woodcock,1,1,0.03571428571428571,occasional
-Gray Partridge,1,1,0.03571428571428571,occasional
-Lesser Spotted Woodpecker,1,1,0.03571428571428571,occasional
-Meadow Pipit,1,1,0.03571428571428571,occasional
-Rook,1,1,0.03571428571428571,occasional
-Willow Tit,1,1,0.03571428571428571,occasional
-Wood Lark,1,1,0.03571428571428571,occasional
-Yellow-legged Gull,1,1,0.03571428571428571,occasional
+Eurasian Jackdaw,249,1,1,core
+House Sparrow,241,1,1,core
+Dunnock,123,1,1,core
+Eurasian Blue Tit,90,1,1,core
+Great Tit,49,1,1,core
+Eurasian Wren,16,1,1,core
+Carrion Crow,15,1,1,core
+Eurasian Magpie,11,1,1,core
+Eurasian Blackbird,10,1,1,core
+Tawny Owl,9,1,1,core
+Common Wood-Pigeon,8,1,1,core
+Common Chaffinch,5,1,1,core
+Short-toed Treecreeper,3,1,1,core
+Common Snipe,2,1,1,core
+Eurasian Collared-Dove,2,1,1,core
+Eurasian Coot,2,1,1,core
+European Greenfinch,2,1,1,core
+Graylag Goose,2,1,1,core
+Greater White-fronted Goose,2,1,1,core
+Eurasian Jay,1,1,1,core
+Eurasian Nuthatch,1,1,1,core
+European Robin,1,1,1,core
+Gray Heron,1,1,1,core
+Long-tailed Tit,1,1,1,core
+Mallard,1,1,1,core
+Song Thrush,1,1,1,core
