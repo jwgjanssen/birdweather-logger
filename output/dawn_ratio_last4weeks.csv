@@ -1,27 +1,30 @@
 species,n_total,n_dawn,dawn_ratio
-Eurasian Jackdaw,249,49,0.19678714859437751
-House Sparrow,241,65,0.2697095435684647
-Dunnock,123,62,0.5040650406504065
-Eurasian Blue Tit,90,19,0.2111111111111111
-Great Tit,49,3,0.061224489795918366
-Eurasian Wren,16,0,0
-Carrion Crow,15,8,0.5333333333333333
-Eurasian Magpie,11,1,0.09090909090909091
+House Sparrow,390,87,0.2230769230769231
+Eurasian Jackdaw,344,93,0.2703488372093023
+Dunnock,288,117,0.40625
+Eurasian Blue Tit,154,28,0.18181818181818182
+Great Tit,89,10,0.11235955056179775
+Carrion Crow,36,10,0.2777777777777778
+Eurasian Wren,29,8,0.27586206896551724
+Eurasian Magpie,23,1,0.043478260869565216
+Common Chaffinch,15,5,0.3333333333333333
+Common Wood-Pigeon,14,8,0.5714285714285714
 Eurasian Blackbird,10,0,0
 Tawny Owl,9,0,0
-Common Wood-Pigeon,8,6,0.75
-Common Chaffinch,5,0,0
-Short-toed Treecreeper,3,2,0.6666666666666666
-Common Snipe,2,0,0
+Short-toed Treecreeper,8,3,0.375
+Common Buzzard,7,0,0
+Greater White-fronted Goose,7,0,0
+Mallard,5,0,0
+Common Snipe,4,0,0
+European Robin,3,3,1
+Long-tailed Tit,3,2,0.6666666666666666
 Eurasian Collared-Dove,2,2,1
 Eurasian Coot,2,0,0
 European Greenfinch,2,0,0
 Graylag Goose,2,1,0.5
-Greater White-fronted Goose,2,0,0
+Redwing,2,0,0
 Eurasian Jay,1,0,0
 Eurasian Nuthatch,1,0,0
-European Robin,1,1,1
 Gray Heron,1,1,1
-Long-tailed Tit,1,1,1
-Mallard,1,0,0
+Hawfinch,1,0,0
 Song Thrush,1,0,0

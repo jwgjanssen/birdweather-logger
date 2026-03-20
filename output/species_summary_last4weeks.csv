@@ -1,27 +1,30 @@
 species,n_detections,n_days,occupancy_prop,category
-Eurasian Jackdaw,249,1,1,core
-House Sparrow,241,1,1,core
-Dunnock,123,1,1,core
-Eurasian Blue Tit,90,1,1,core
-Great Tit,49,1,1,core
-Eurasian Wren,16,1,1,core
-Carrion Crow,15,1,1,core
-Eurasian Magpie,11,1,1,core
-Eurasian Blackbird,10,1,1,core
-Tawny Owl,9,1,1,core
-Common Wood-Pigeon,8,1,1,core
-Common Chaffinch,5,1,1,core
-Short-toed Treecreeper,3,1,1,core
-Common Snipe,2,1,1,core
-Eurasian Collared-Dove,2,1,1,core
-Eurasian Coot,2,1,1,core
-European Greenfinch,2,1,1,core
-Graylag Goose,2,1,1,core
-Greater White-fronted Goose,2,1,1,core
-Eurasian Jay,1,1,1,core
-Eurasian Nuthatch,1,1,1,core
-European Robin,1,1,1,core
-Gray Heron,1,1,1,core
-Long-tailed Tit,1,1,1,core
-Mallard,1,1,1,core
-Song Thrush,1,1,1,core
+House Sparrow,390,2,0.6666666666666666,core
+Eurasian Jackdaw,344,2,0.6666666666666666,core
+Dunnock,288,2,0.6666666666666666,core
+Eurasian Blue Tit,154,2,0.6666666666666666,core
+Great Tit,89,2,0.6666666666666666,core
+Carrion Crow,36,2,0.6666666666666666,core
+Eurasian Wren,29,2,0.6666666666666666,core
+Eurasian Magpie,23,2,0.6666666666666666,core
+Common Chaffinch,15,2,0.6666666666666666,core
+Common Wood-Pigeon,14,2,0.6666666666666666,core
+Eurasian Blackbird,10,1,0.3333333333333333,regular
+Tawny Owl,9,1,0.3333333333333333,regular
+Short-toed Treecreeper,8,2,0.6666666666666666,core
+Common Buzzard,7,1,0.3333333333333333,regular
+Greater White-fronted Goose,7,2,0.6666666666666666,core
+Mallard,5,2,0.6666666666666666,core
+Common Snipe,4,2,0.6666666666666666,core
+European Robin,3,2,0.6666666666666666,core
+Long-tailed Tit,3,2,0.6666666666666666,core
+Eurasian Collared-Dove,2,1,0.3333333333333333,regular
+Eurasian Coot,2,1,0.3333333333333333,regular
+European Greenfinch,2,1,0.3333333333333333,regular
+Graylag Goose,2,1,0.3333333333333333,regular
+Redwing,2,2,0.6666666666666666,core
+Eurasian Jay,1,1,0.3333333333333333,regular
+Eurasian Nuthatch,1,1,0.3333333333333333,regular
+Gray Heron,1,1,0.3333333333333333,regular
+Hawfinch,1,1,0.3333333333333333,regular
+Song Thrush,1,1,0.3333333333333333,regular
