@@ -37,7 +37,7 @@ jobs:
         run: |
           Rscript -e 'install.packages(c(
             "readr","dplyr","lubridate","ggplot2","forcats",
-            "rmarkdown","tinytex"
+            "bslib","rmarkdown","tinytex"
           ), repos="https://cloud.r-project.org")'
           Rscript -e 'tinytex::install_tinytex()'
 
