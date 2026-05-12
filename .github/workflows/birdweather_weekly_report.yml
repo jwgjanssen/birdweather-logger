@@ -1,5 +1,8 @@
 name: BirdNET-Pi Weekly PDF Report
 
+env:
+  USE_BUNDLED_LIBUV: 1
+  
 on:
   # runs automatically every Monday 06:00 UTC
   schedule:
@@ -37,7 +40,7 @@ jobs:
         run: |
           Rscript -e 'install.packages(c(
             "readr","dplyr","lubridate","ggplot2","forcats",
-            "libuv1-dev","rmarkdown","tinytex"
+            "rmarkdown","tinytex"
           ), repos="https://cloud.r-project.org")'
           Rscript -e 'tinytex::install_tinytex()'
 
