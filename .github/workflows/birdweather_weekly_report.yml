@@ -2,6 +2,7 @@ name: BirdNET-Pi Weekly PDF Report
 
 env:
   USE_BUNDLED_LIBUV: 1
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
   
 on:
   # runs automatically every Monday 06:00 UTC
